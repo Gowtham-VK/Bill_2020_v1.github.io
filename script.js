@@ -183,8 +183,14 @@ $(document).ready(function()
   // }
   value = value
   sessionStorage.setItem("value",value);
-  // document.getElementById("result").innerHTML
-  //         = "Gender: "+ele[i].value; 
+   if(value==0){
+a=document.getElementById("title").innerHTML="Proplus Media"
+document.getElementById("title2").innerHTML="Proplus Media"
+  }
+  else{
+    document.getElementById("title").innerHTML="SAMASHTI MEDIA VENTURES"
+document.getElementById("title2").innerHTML="SAMASHTI MEDIA VENTURES"
+  }
 
 
 }
