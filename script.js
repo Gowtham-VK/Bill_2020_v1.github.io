@@ -63,7 +63,7 @@ $(document).ready(function()
         window.alert("Please Enter all Fields")
         
       }
-      else{}
+      
 
       list = wrapper.find('input').map(function() {
         return $(this).val();
