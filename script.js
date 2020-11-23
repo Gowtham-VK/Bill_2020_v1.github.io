@@ -58,7 +58,7 @@ $(document).ready(function()
 
     $('.submit').click(function() {
 
-      if(document.getElementById("uid").value.length==0||document.getElementById("bill").value.length==0||document.getElementById("email").value.length==0||document.getElementById("example-date-input").value.length==0||document.getElementById("Gst").value.length==0){
+      if(document.getElementById("uid").value.length==0||document.getElementById("bill").value.length==0||document.getElementById("email").value.length==0||document.getElementById("startdate").value.length==0||document.getElementById("Gst").value.length==0){
         
         window.alert("Please Enter all Fields")
         
