@@ -103,3 +103,7 @@ a {
     height: 50px;
     width: 50px;
 }
+
+#totWords, #total, #email, #emailId{
+    color: black;
+}
