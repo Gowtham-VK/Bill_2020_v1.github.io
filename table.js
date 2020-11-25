@@ -34,7 +34,8 @@ Gst = sessionStorage.getItem("Gst")
    document.getElementById("email").innerHTML="Email : "+Email
    document.getElementById("address").innerHTML=Address
    document.getElementById("username").innerHTML=User
-   document.getElementById("Phone").innerHTML="Phone : "+ Phone
+   document.getElementById("Phone").innerHTML="Mob : "+ Phone
+   document.getElementById("datE").innerHTML="Date : "+Dates
    
 
    if(value==1){
