@@ -36,6 +36,7 @@ Gst = sessionStorage.getItem("Gst")
    document.getElementById("username").innerHTML=User
    document.getElementById("Phone").innerHTML="Mob : "+ Phone
    document.getElementById("datE").innerHTML="Date : "+Dates
+   document.getElementById("subtot").innerHTML=fin
    
 
    if(value==1){
@@ -128,16 +129,17 @@ Gst = sessionStorage.getItem("Gst")
         number(n)
         document.getElementById("totWords").innerHTML=amt+"Only"
         document.getElementById("discount").innerHTML= Discount
+        document.getElementById("subtot").innerHTML=fin
         document.getElementById("total").innerHTML= n
             var tbodyRef = document.getElementById('tBody');
             //console.log(tbodyRef);
-            var newRow = tbodyRef.insertRow(2);
+            var newRow = tbodyRef.insertRow(3);
             var y = newRow.insertCell(0);
             var z = newRow.insertCell(1);
-            y.outerHTML  = '<th class="text-left">GST<span class="font-weight-normal">(9%)</span></</th>'
+            y.outerHTML  = '<th class="text-left">SGST<span class="font-weight-normal">(9%)</span></</th>'
            
             z.innerHTML =`${m}`;
-            var newRow = tbodyRef.insertRow(3);
+            var newRow = tbodyRef.insertRow(4);
             var a = newRow.insertCell(0);
             var b = newRow.insertCell(1);
             a.outerHTML  = '<th class="text-left">CGST<span class="font-weight-normal">(9%)</span></</th>'
@@ -162,12 +164,13 @@ Gst = sessionStorage.getItem("Gst")
         document.getElementById("totWords").innerHTML=amt+"Only"
         document.getElementById("total").innerHTML= subTot
         document.getElementById("discount").innerHTML= Discount
+        document.getElementById("subtot").innerHTML=fin
         var tbodyRef = document.getElementById('tBody');
         //console.log(tbodyRef);
-        var newRow = tbodyRef.insertRow(2);
+        var newRow = tbodyRef.insertRow(3);
         var y = newRow.insertCell(0);
         var z = newRow.insertCell(1);
-        y.outerHTML  = '<th class="text-left">CGST<span class="font-weight-normal">(18%)</span></</th>'
+        y.outerHTML  = '<th class="text-left">IGST<span class="font-weight-normal">(18%)</span></</th>'
        
         z.innerHTML =`${l}`;
       
