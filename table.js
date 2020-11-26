@@ -48,7 +48,7 @@ Gst = sessionStorage.getItem("Gst")
    document.getElementById("bank").innerHTML="Union Bank"
    document.getElementById("accnt").innerHTML="510101006411033"
    document.getElementById("Bname").innerHTML="Samashti Media Ventures Pvt. Ltd."
-   document.getElementById("GstB").innerHTML="GST :"+Gst
+   document.getElementById("GstB").innerHTML="GSTIN :"+Gst
    document.getElementById("emailId").innerHTML="support@samashtimedia.com"
    
 }
