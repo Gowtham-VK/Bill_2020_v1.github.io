@@ -40,7 +40,9 @@ Gst = sessionStorage.getItem("Gst")
    
 
    if(value==1){
-   document.getElementById("title").innerText="SAMASHTI MEDIA VENTURES PVT. LTD."
+      tit="SAMASHTI MEDIA VENTURES PVT. LTD."
+  titVal= tit.fontcolor("#aa2327")
+  document.getElementById("title").innerHTML=titVal
    document.getElementById("logo").src="./SMV-title (2).png"
    document.getElementById("cin").innerHTML="CIN No : U74999KA2018PTC109692"
    document.getElementById("gst").innerHTML="GSTIN No : 29AAZCS7602Q1Z4"
