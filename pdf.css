@@ -101,9 +101,18 @@ a {
 
 #logo{
     height: 50px;
-    width: 50px;
+    width: 70px;
 }
+#title{
+    color:  brown !important;
+}
+
 
 #totWords, #total, #email, #emailId{
     color: black;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 25px;
 }
