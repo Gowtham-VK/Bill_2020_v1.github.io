@@ -206,3 +206,13 @@ var option= opt.value ;
 Option = option
        sessionStorage.setItem("Option",Option);
 }
+
+function warn(){
+  
+  console.log(pro.value);
+  if(sam.checked==false&&pro.checked==false){
+    window.alert("Please Select Either Samashti Media or Proplus Media to Proceed")
+  }
+  
+  
+}
