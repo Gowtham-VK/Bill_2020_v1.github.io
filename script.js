@@ -170,29 +170,30 @@ $(document).ready(function()
     Discount =f
     sessionStorage.setItem("Discount",Discount) 
   }
- function sel(){
+function sel(){
   if(sam.checked) 
   { value = 1}
   //console.log(value);}
-  else{value=0}
-  // if(value=1){
-  //   sel()
-  // }
-  // else{
-  //   sel()
-  // }
+  else if(pro.checked){value=0}
+  else{value=3}
   value = value
   sessionStorage.setItem("value",value);
-   if(value==0){
+  if(value==0){
 a=document.getElementById("title").innerHTML="Proplus Media"
 document.getElementById("title2").innerHTML="Proplus Media"
+document.getElementById("opt1").disabled=true
+document.getElementById("opt2").disabled=true
   }
-  else{
+  else if(value==1){
     document.getElementById("title").innerHTML="SAMASHTI MEDIA VENTURES"
 document.getElementById("title2").innerHTML="SAMASHTI MEDIA VENTURES"
   }
-
-
+  else{
+    document.getElementById("title").innerHTML="KUNDAPRA.COM"
+document.getElementById("title2").innerHTML="KUNDAPRA.COM"
+document.getElementById("opt1").disabled=true
+document.getElementById("opt2").disabled=true
+  }
 }
 
 function dpSel(){
