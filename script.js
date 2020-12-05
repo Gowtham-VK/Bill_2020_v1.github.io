@@ -211,7 +211,7 @@ Option = option
 function warn(){
   
   console.log(pro.value);
-  if(sam.checked==false&&pro.checked==false){
+  if(sam.checked==false&&pro.checked==false&&kun.checked==false){
     window.alert("Please Select Either Samashti Media or Proplus Media to Proceed")
   }
   
