@@ -54,6 +54,13 @@ Gst = sessionStorage.getItem("Gst")
    document.getElementById("emailId").innerHTML="support@samashtimedia.com"
    
 }
+    if (value==3){
+    tit="KUNDAPRA.COM"
+    titVal= tit.fontcolor("#aa2327")
+    document.getElementById("title").innerHTML=titVal
+     document.getElementById("logo").src=""
+
+}
     var num_rows = length
     var theader = '<table border="">\n';
     var tbody = '';
