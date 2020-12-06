@@ -58,7 +58,7 @@ Gst = sessionStorage.getItem("Gst")
     tit="KUNDAPRA.COM"
     titVal= tit.fontcolor("#aa2327")
     document.getElementById("title").innerHTML=titVal
-     document.getElementById("logo").src=""
+     document.getElementById("logo").src="./kundapra.png"
 
 }
     var num_rows = length
