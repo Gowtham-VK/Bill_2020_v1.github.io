@@ -187,6 +187,8 @@ document.getElementById("opt2").disabled=true
   else if(value==1){
     document.getElementById("title").innerHTML="SAMASHTI MEDIA VENTURES"
 document.getElementById("title2").innerHTML="SAMASHTI MEDIA VENTURES"
+      document.getElementById("opt1").disabled=false
+document.getElementById("opt2").disabled=false
   }
   else{
     document.getElementById("title").innerHTML="KUNDAPRA.COM"
