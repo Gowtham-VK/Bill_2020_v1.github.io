@@ -35,7 +35,7 @@ Gst = sessionStorage.getItem("Gst")
    document.getElementById("address").innerHTML=Address
    document.getElementById("username").innerHTML=User
    document.getElementById("Phone").innerHTML="Mob : "+ Phone
-   document.getElementById("datE").innerHTML="Date : "+Dates
+//    document.getElementById("datE").innerHTML="Date : "+Dates
    document.getElementById("subtot").innerHTML=fin
    
 
