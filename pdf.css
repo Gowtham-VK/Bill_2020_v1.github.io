@@ -52,7 +52,7 @@ body {
 }
 
 .card-header {
-    padding: .9375rem 1.25rem;
+    padding: .3rem 1.25rem;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, .02);
     border-bottom: 1px solid rgba(0, 0, 0, .125)
