@@ -114,3 +114,32 @@ a {
     margin-top: 10px;
     font-size: 25px;
 }
+
+.card-header bg-transparent header-elements-inline{
+    padding: .05rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+h5, .font-weight-semibold{
+    font-size: 1rem;
+    
+}
+
+h6 ,.card-title text-primary{
+    
+    font-size: 20px;
+  }
+
+  .table-responsive{
+      line-height: 0.75;
+  }
+
+  #total ,#totWords {
+      font-weight: 503;
+  }
+  #tName {
+    padding: .05rem 1.25rem;
+    font-weight: 503;
+  }
